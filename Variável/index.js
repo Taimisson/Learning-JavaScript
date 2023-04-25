@@ -1,4 +1,4 @@
-console.log("Hello World!") 
+// console.log("Hello World!") 
 // prompt("Qual é o seu nome? ")
 
 // const idade = prompt("Qual sua idade?")
@@ -18,6 +18,16 @@ console.log("Hello World!")
 // anoNascimento = 2023 - anoNascimento
 // console.log(anoNascimento)
 
-const nome = prompt("Qual seu nome?")
+const nome = prompt("Qual seu primeiro nome?")
+const sobrenome = prompt("Qual seu sobrenome?")
 const idade = prompt("Qual sua idade?")
-console.log("Olá!", "Meu nome é",nome, "e eu tenho",idade,"anos")
+const estudante = prompt("Está estudando? [S/N]").toUpperCase()
+
+console.log("Olá! Seu primeiro nome é " + nome + ", seu sobrenome é "+ sobrenome + ", e tem "+ idade + " anos.")
+
+if (estudante.charAt(0) === "S") {
+    console.log(nome, "está estudando!")
+  } 
+else {
+    console.log(nome, "não está estudando!")
+  }
