@@ -18,16 +18,22 @@
 // anoNascimento = 2023 - anoNascimento
 // console.log(anoNascimento)
 
-const nome = prompt("Qual seu primeiro nome?")
-const sobrenome = prompt("Qual seu sobrenome?")
-const idade = prompt("Qual sua idade?")
-const estudante = prompt("Está estudando? [S/N]").toUpperCase()
+// const nome = prompt("Qual seu primeiro nome?")
+// const sobrenome = prompt("Qual seu sobrenome?")
+// const idade = prompt("Qual sua idade?")
+// const estudante = prompt("Está estudando? [S/N]").toUpperCase()
 
-console.log("Olá! Seu primeiro nome é " + nome + ", seu sobrenome é "+ sobrenome + ", e tem "+ idade + " anos.")
+// console.log("Olá! Seu primeiro nome é " + nome + ", seu sobrenome é "+ sobrenome + ", e tem "+ idade + " anos.")
 
-if (estudante.charAt(0) === "S") {
-    console.log(nome, "está estudando!")
-  } 
-else {
-    console.log(nome, "não está estudando!")
-  }
+// if (estudante.charAt(0) === "S") {
+//     console.log(nome, "está estudando!")
+//   } 
+// else {
+//     console.log(nome, "não está estudando!")
+//   }
+
+let horasTrabalhadas = prompt("Quantas horas você trabalha por dia?")
+let valorHoras = prompt("Quanto você recebe por dia?")
+
+alert(`Você recebe ${valorHoras/horasTrabalhadas} reais por hora!`);
+
