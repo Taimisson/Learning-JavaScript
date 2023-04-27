@@ -45,9 +45,16 @@
 
 // ex04
 
-const num1 = 234
+// const num1 = 234
 
-resto = 234 % 5
+// resto = 234 % 5
 
-console.log(resto) // Resto 4
+// console.log(resto) // Resto 4
 
+const num = Number(prompt("Digite um número"))
+
+if (num === 1) {
+    console.log(`O ${num} é igual a 1`)
+} else {
+    console.log(`O ${num} não é igual a 1`)
+}
