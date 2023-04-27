@@ -51,10 +51,33 @@
 
 // console.log(resto) // Resto 4
 
-const num = Number(prompt("Digite um número"))
 
-if (num === 1) {
-    console.log(`O ${num} é igual a 1`)
-} else {
-    console.log(`O ${num} não é igual a 1`)
-}
+// If and Else
+// const num = Number(prompt("Digite um número"))
+
+// if (num === 1) {
+//     console.log(`O ${num} é igual a 1`)
+// } else {
+//     console.log(`O ${num} não é igual a 1`)
+// }
+
+// ex 05 
+
+// const number = 1
+// const number2 = 2
+
+// console.log(number === number2)
+// console.log(number != number2)
+// console.log(number > number2)
+// console.log(number < number2)
+
+// ex 06
+
+const a = true
+const b = false
+const c = true
+
+console.log(a && b)
+console.log(b && c)
+console.log(a && c)
+console.log(a && b && c)
