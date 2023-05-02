@@ -1,15 +1,12 @@
 // Variáveis
 const nome = prompt("Qual seu primeiro nome?"); 
-const anoIdade = prompt("Qual ano você nasceu?");
+const anoNasc = prompt("Qual ano você nasceu?");
 
-const dataAtual = new Date(); // Variável com data
-const anoAtual = dataAtual.getFullYear(); // Ano atual
-
+const anoAtual = new Date().getFullYear() // Ano Atual
 
 // Idade
-const idade = anoAtual - anoIdade; // Calcular idade da pessoa 
-const ano2050 = 2050 - anoAtual // Quanto tempo falta para 2050 
-const idade2050 = idade + ano2050; // Calcular a idade da pessoa em 2050
+const idade = anoAtual - anoNasc; // Calcular idade da pessoa 
+const idade2050 = 2050 - anoNasc; // Calcular a idade da pessoa em 2050 ao subtrair o ano de 2050 com o ano de nascimento
 
 // Print
 console.log(nome);
