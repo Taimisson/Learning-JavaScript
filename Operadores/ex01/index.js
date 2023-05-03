@@ -91,41 +91,40 @@
 
 // F para Kelvin
 
-// let GRAUS_FAHRENHEIT = 77
-// let GRAUS_CELSIUS = 80 
+// let fahrenheit;
+// let kelvin;
 
-// KELVIN = (GRAUS_FAHRENHEIT - 32)*(5/9) + 273.15 
+// kelvin = (77 - 32)*(5/9) + 273.15 
 
-// console.log("77 Graus Fahrenheit para Kelvin é:", KELVIN)
+// console.log("77 Graus Fahrenheit para Kelvin é:", kelvin)
 
 // // C para Fah
 
-// GRAUS_FAHRENHEIT = (GRAUS_CELSIUS)*(9/5) + 32
+// fahrenheit = (80)*(9/5) + 32
 
-// console.log("80 Graus celsius para Fahrenheit é:", GRAUS_FAHRENHEIT)
+// console.log("80 Graus celsius para Fahrenheit é:", fahrenheit)
 
 // // 30 Graus Celsius para Fahrenheit e Kelvin
 
-// GRAUS_CELSIUS = 30
+// fahrenheit = (30)*(9/5) + 32
+// kelvin = (30 - 32)*(5/9) + 273.15 
 
-// GRAUS_FAHRENHEIT = (GRAUS_CELSIUS)*(9/5) + 32
-// KELVIN = (GRAUS_FAHRENHEIT - 32)*(5/9) + 273.15 
-
-// console.log("30 graus celsius para Fahrenheit e Kelvin é:", GRAUS_FAHRENHEIT,"e", KELVIN)
+// console.log("30 graus celsius para Fahrenheit e Kelvin é:", fahrenheit,"e", kelvin)
 
 // --------------------------------
 
 // Desafio 02
 
-const kWh = Number(prompt("Quantos kWh sua residência consome?"))
+// const kWh = Number(prompt("Quantos kWh sua residência consome?"))
 
-valorKWh = kWh * 0.05
+// valorKWh = kWh * 0.05
 
-console.log(`Sua residência consumiu ${kWh} kWh.`)
-console.log("O valor a ser pago pela sua residência por quilowatt-hora é: R$", valorKWh)
+// console.log(`Sua residência consumiu ${kWh} kWh.`)
+// console.log("O valor a ser pago pela sua residência por quilowatt-hora é: R$", valorKWh)
 
-desconto = valorKWh - ((15/100) * valorKWh)
+// desconto = valorKWh - ((15/100) * valorKWh)
 
-console.log("O valor com desconto de 15% é: R$", desconto)
+// console.log("O valor com desconto de 15% é: R$", desconto)
 
 // --------------------------------
+
