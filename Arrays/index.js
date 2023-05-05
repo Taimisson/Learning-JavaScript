@@ -23,11 +23,38 @@
 
 // -------------------
 
-const frase = prompt("Escreva uma frase")
+// const frase = prompt("Escreva uma frase")
 
-console.log(frase.toUpperCase())
+// console.log(frase.toUpperCase())
 
-const novaFrase = frase.toUpperCase().replace(/O/gi,"I")
+// const novaFrase = frase.toUpperCase().replace(/O/gi,"I")
 
-console.log("Nova frase:",novaFrase)
-console.log("O tamanho da frase é",frase.length)
+// console.log("Nova frase:",novaFrase)
+// console.log("O tamanho da frase é",frase.length)
+
+// -------------------
+
+// const escolha = Number(prompt("Escolha um número de 1 a 5"))
+
+// const cachorros = ["Caramelo", "Pinscher", "Vira-lata", "Dalmata", "Golden"]
+// console.log(cachorros[escolha-1])
+
+// -------------------
+
+// const pokemons = ["Pikachu", "Bulbasauro", "Squirtle", "Charizard"]
+
+// console.log(pokemons.length)
+// console.log(pokemons.includes("Pikachu"))
+
+
+// console.log(pokemons.push("Mew"))
+// console.log(pokemons);
+
+// pokemons.pop()
+// console.log(pokemons)
+
+// pokemons.splice(0,1)
+// console.log(pokemons)
+
+// -------------------
+
