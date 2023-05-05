@@ -58,3 +58,65 @@
 
 // -------------------
 
+// let numbers = [1, 2, 3, 4, 5, 6]
+// console.log(numbers.length)
+
+// numbers.push(7)
+// console.log(numbers)
+// numbers.splice(3, 2)
+
+// console.log(numbers)
+// console.log(numbers.length)
+
+// -------------------
+
+
+// const frase = prompt("Digite uma frase")
+// console.log(frase.toUpperCase().replaceAll("A", "I"), frase.length)
+
+// -------------------
+
+// Ex01
+
+// const username = prompt("Qual o seu nome?")
+// const email = prompt("Qual o seu email?")
+
+// console.log(`O e-mail ${email} foi cadastrado com sucesso. Seja bem-vindo(a), ${username}!`)
+
+// -------------------
+
+// Ex02
+
+// const favFoods = ["Macarrão", "Feijão", "Arroz", "Carne", "Maçã"]
+
+// console.log(favFoods)
+// console.log(`Minhas comidas favoritas são: 
+// ${favFoods[0]} 
+// ${favFoods[1]} 
+// ${favFoods[2]} 
+// ${favFoods[3]} 
+// ${favFoods[4]}
+// `)
+
+
+// const favUser = prompt("Qual sua comida favorita?")
+// favFoods[1] = favUser
+// console.log(favFoods)
+
+// -------------------
+
+// const listaDeTarefas = []
+
+// const tarefa1 = prompt("Qual a sua primeira tarefa do dia?")
+// const tarefa2 = prompt("Qual a sua segunda tarefa do dia?")
+// const tarefa3 = prompt("Qual a sua terceira tarefa do dia?")
+
+// listaDeTarefas.push(tarefa1, tarefa2, tarefa3)
+// console.log(listaDeTarefas)
+
+// const tarefaFeita = prompt(`Qual tarefa já foi feita? Tarefa 0: ${listaDeTarefas[0]} | Tarefa 1: ${listaDeTarefas[1]} | Tarefa 3: ${listaDeTarefas[2]}`)
+
+// listaDeTarefas.splice(tarefaFeita, 1)
+// console.log("Ainda faltam essas tarefas:",listaDeTarefas)
+
+// -------------------
