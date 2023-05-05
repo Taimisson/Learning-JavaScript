@@ -105,6 +105,8 @@
 
 // -------------------
 
+// Ex03
+
 // const listaDeTarefas = []
 
 // const tarefa1 = prompt("Qual a sua primeira tarefa do dia?")
@@ -120,3 +122,21 @@
 // console.log("Ainda faltam essas tarefas:",listaDeTarefas)
 
 // -------------------
+
+// Desafio 01
+
+// const frase = prompt("Digite uma frase:")
+
+// const elementos = frase.split(' ')
+
+// console.log(elementos)
+
+// -------------------
+
+// Desafio 02
+
+const fruits = ["Banana", "Morango", "Abacaxi", "Ameixa"]
+console.log(fruits)
+
+console.log(`Localização do Abacaxi no Array: ${fruits.indexOf("Abacaxi")+1}`)
+console.log(`Tamanho do array: ${fruits.length}`)
