@@ -115,6 +115,7 @@
 
 // Desafio 02
 
+<<<<<<< HEAD
 const kWh = Number(prompt("Quantos kWh sua residência consome?"))
 
 valorKWh = kWh * 0.05
@@ -125,6 +126,18 @@ console.log("O valor a ser pago pela sua residência por quilowatt-hora é: R$",
 desconto = valorKWh - ((15/100) * valorKWh)
 
 console.log("O valor com desconto de 15% é: R$", desconto)
+=======
+// const kWh = Number(prompt("Quantos kWh sua residência consome?"))
+
+// valorKWh = kWh * 0.05
+
+// console.log(`Sua residência consumiu ${kWh} kWh.`)
+// console.log("O valor a ser pago pela sua residência por quilowatt-hora é: R$", valorKWh)
+
+// desconto = valorKWh - ((15/100) * valorKWh)
+
+// console.log("O valor com desconto de 15% é: R$", desconto)
+>>>>>>> b72b76646e918f1feeacdb0f6fe3625d2cbc8b27
 
 // --------------------------------
 
