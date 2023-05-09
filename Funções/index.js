@@ -11,12 +11,20 @@
 
 // calcularArea(primeiroNumero, segundoNumero)
 
-function exibirNome(nome){
-    console.log(`Olá ${nome}`)
+// function exibirNome(nome){
+//     console.log(`Olá ${nome}`)
+// }
+
+// const nome = prompt("Digite o nome")
+
+// exibirNome(nome)
+// exibirNome("Pedro")
+// exibirNome("Lucas")
+
+
+function somar(numero1, numero2){
+    const soma = numero1 + numero2
+    return soma
 }
 
-const nome = prompt("Digite o nome")
-
-exibirNome(nome)
-exibirNome("Pedro")
-exibirNome("Lucas")
+console.log(somar(10,20))
