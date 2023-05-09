@@ -1,3 +1,5 @@
+// Functions
+
 export function calcularArea(){
     // Aqui dentro é uma função
     const altura = 2
@@ -7,3 +9,4 @@ export function calcularArea(){
 }
 
 calcularArea()
+
