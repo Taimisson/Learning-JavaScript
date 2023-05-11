@@ -26,10 +26,27 @@
 // console.log(filme.diretor);
 // console.log(filme.elenco);
 
+// const pessoa = {
+//     nome: "Taimisson",
+//     idade: 19,
+//     musica: "POP",
+// }
+
+// console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.musica}.`)
+
+const endereco = {
+    rua: "Singapura",
+    numero: 0,
+    cidade:"São Leopoldo",
+    estado: "RS",
+    cep: "12.232.235"
+}
+
 const pessoa = {
     nome: "Taimisson",
     idade: 19,
-    musica: "POP",
+    generoMusical: "POP",
+    enderecoPessoa: endereco
 }
 
-console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.musica}.`)
+console.log(pessoa.enderecoPessoa)
