@@ -22,9 +22,16 @@
 // exibirNome("Lucas")
 
 
-function somar(numero1, numero2){
-    const soma = numero1 + numero2
-    return soma
+// function somar(numero1, numero2){
+//     const soma = numero1 + numero2
+//     return soma
+// }
+
+// console.log(somar(10,20))
+
+function multiplicar(variavel){
+    return variavel * 5
 }
 
-console.log(somar(10,20))
+console.log(multiplicar(5))
+console.log(multiplicar(10))
