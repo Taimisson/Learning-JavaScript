@@ -29,9 +29,22 @@
 
 // console.log(somar(10,20))
 
-function multiplicar(variavel){
-    return variavel * 5
+// function multiplicar(variavel){
+//     return variavel * 5
+// }
+
+// console.log(multiplicar(5))
+// console.log(multiplicar(10))
+
+
+
+function exibirPessoa(nome, idade, cidade, profissao){
+    console.log(`Eu sou ${nome}, tenho ${idade}, moro em ${cidade} e sou ${profissao}.`)
 }
 
-console.log(multiplicar(5))
-console.log(multiplicar(10))
+const nomePessoa = prompt("Digite o nome")
+const idadePessoa = prompt("Digite a idade")
+const cidadePessoa = prompt("Digite a cidade")
+const profissaoPessoa = prompt("Digite a profissão")
+
+exibirPessoa(nomePessoa, idadePessoa, cidadePessoa, profissaoPessoa)
