@@ -77,24 +77,35 @@
 
 // console.log(imprimirMensagem("É sola da bota, e na palma da bota"))
 
-function somar(n1, n2){
-    return n1 + n2
+// function somar(n1, n2){
+//     return n1 + n2
+// }
+
+// function subtrair(n1, n2){
+//     return n1 - n2
+// }
+
+// function multiplicar(n1, n2){
+//     return n1 * n2
+// }
+
+// function dividir(n1, n2){
+//     return n1 / n2
+// }
+
+// const numero1 = Number(prompt("Digite um número"))
+// const numero2 = Number(prompt("Digite outro número"))
+
+// console.log(`A soma é ${somar(numero1,numero2)}, \nA substração é ${subtrair(numero1,numero2)}, \nA multiplicação é ${multiplicar(numero1,numero2)}, \nA divisão é ${dividir(numero1,numero2)}`)
+
+const imprimir = (mensagem) => {
+    console.log(mensagem)
 }
 
-function subtrair(n1, n2){
-    return n1 - n2
+const receberValores = (n1,n2) => {
+    const somar = n1+n2
+    imprimir(somar)
 }
 
-function multiplicar(n1, n2){
-    return n1 * n2
-}
-
-function dividir(n1, n2){
-    return n1 / n2
-}
-
-const numero1 = Number(prompt("Digite um número"))
-const numero2 = Number(prompt("Digite outro número"))
-
-console.log(`A soma é ${somar(numero1,numero2)}, \nA substração é ${subtrair(numero1,numero2)}, \nA multiplicação é ${multiplicar(numero1,numero2)}, \nA divisão é ${dividir(numero1,numero2)}`)
+receberValores(10,20)
 
