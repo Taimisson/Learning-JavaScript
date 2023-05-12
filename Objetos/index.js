@@ -97,8 +97,40 @@
 // console.log(gato)
 // console.log(tartaruga)
 
-// Ex02
+// a) Criando dois objetos com as propriedades
+// const pessoa1 = {
+//     nome: "João",
+//     idade: 35,
+//     profissao: "Engenheiro"
+//   };
+  
+//   const pessoa2 = {
+//     nome: "Maria",
+//     idade: 28,
+//     profissao: "Advogada"
+//   };
+  
+//   // b) Criando a função que retorna um array com as informações
+//   function retornarInformacoesPessoa(pessoa) {
+//     const nome = pessoa.nome;
+//     const tamanhoNome = pessoa.nome.length;
+//     const idade = pessoa.idade;
+//     const profissao = pessoa.profissao;
+//     const tamanhoProfissao = pessoa.profissao.length;
+  
+//     return [nome, tamanhoNome, idade, profissao, tamanhoProfissao];
+//   }
+  
+//   // Chamando a função para cada um dos objetos criados
+//   const infoPessoa1 = retornarInformacoesPessoa(pessoa1);
+//   const infoPessoa2 = retornarInformacoesPessoa(pessoa2);
+  
+//   // Imprimindo os resultados
+//   console.log(infoPessoa1);
+//   console.log(infoPessoa2);
+  
 
+// Ex02
 
 
 // function listarPessoa(pessoa){
@@ -111,20 +143,48 @@
 
 // listarPessoa(usuario)
 
-const nome = prompt("Qual o seu nome?")
-const idade = Number(prompt("Qual a sua idade?"))
-const profissao = prompt("Qual a sua profissão?")
+// const nome = prompt("Qual o seu nome?")
+// const idade = Number(prompt("Qual a sua idade?"))
+// const profissao = prompt("Qual a sua profissão?")
 
-const pessoa1 = {
-    nome: nome,
-    idade: idade,
-    profissao: profissao,
-}
+// const pessoa1 = {
+//     nome: nome,
+//     idade: idade,
+//     profissao: profissao,
+// }
 
-function minhaFuncao(pessoa) {
-    const resultado = [`Nome: ${pessoa1.nome} , Idade: ${pessoa1.idade}, Profissão: ${pessoa1.profissao}`]
-    return resultado
-}
+// function minhaFuncao(pessoa) {
+//     const resultado = [`Nome: ${pessoa1.nome} , Idade: ${pessoa1.idade}, Profissão: ${pessoa1.profissao}`]
+//     return resultado
+// }
 
-console.log(minhaFuncao(pessoa1))
-console.log(typeof(minhaFuncao(pessoa1)))
+// console.log(minhaFuncao(pessoa1))
+// console.log(typeof(minhaFuncao(pessoa1)))
+
+// let carrinho = [];
+
+// const fruta1 = {
+//     nome: "Maçã",
+//     disponibilidade: true
+// }
+
+// const fruta2 = {
+//     nome: "Abacaxi",
+//     disponibilidade: true
+// }
+
+// const fruta3 = {
+//     nome: "Banana",
+//     disponibilidade: true
+// }
+
+// function addCarrinho(fruta){
+//     carrinho.push(fruta)
+// }
+
+// addCarrinho(fruta1)
+// addCarrinho(fruta2)
+// addCarrinho(fruta3)
+
+// console.log(carrinho)
+
