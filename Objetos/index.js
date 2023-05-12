@@ -51,16 +51,80 @@
 
 // console.log(pessoa.enderecoPessoa)
 
-const usuario = {
-    nome: "Prof",
-    idade: 25,
-    email: "prof@senacrs.com.br",
-    cidade: "São Paulo"
-   }
+// const usuario = {
+//     nome: "Prof",
+//     idade: 25,
+//     email: "prof@senacrs.com.br",
+//     cidade: "São Paulo"
+//    }
    
-   const novoUsuario = {
-    nome: "João",
-    idade: 28,
-    email: "prof@senacrs.com.br",
-    cidade: "São Paulo"
-    }
+//    const novoUsuario = {
+//     nome: "João",
+//     idade: 28,
+//     email: "prof@senacrs.com.br",
+//     cidade: "São Paulo"
+//     }
+
+// const filme = {
+// 	nome: "Auto da Compadecida", 
+// 	ano: 2000, 
+// 	elenco: [
+// 		"Matheus Nachtergaele", "Selton Mello", "Denise Fraga", 
+// 		"Virginia Cavendish"
+// 		], 
+// 	transmissoesHoje: [
+// 		{canal: "Telecine", horario: "21h"}, 
+// 		{canal: "Canal Brasil", horario: "19h"}, 
+// 		{canal: "Globo", horario: "14h"}
+// 		]
+// }
+
+// console.log(filme.elenco[0])
+// console.log(filme.elenco[filme.elenco.length - 1]) // Lenght é 4 e 4-1 = 3, logo Virginia Cavendish.
+// console.log(filme.transmissoesHoje[2])
+
+// const cachorro = {
+// 	nome: "Juca", 
+// 	idade: 3, 
+// 	raca: "SRD"
+// }
+
+// const gato = {...cachorro, nome: "Juba"} // Muda o nome de Juca pra Juba
+
+// const tartaruga = {...gato, nome: gato.nome.replaceAll("a", "o")} // Muda o nome de Juba para Jubo
+
+// console.log(cachorro)
+// console.log(gato)
+// console.log(tartaruga)
+
+// Ex02
+
+
+
+// function listarPessoa(pessoa){
+//     console.log(`Meu nome é ${pessoa.nome}`)
+// }
+
+// const usuario = {
+//     nome: "Jose"
+// }
+
+// listarPessoa(usuario)
+
+const nome = prompt("Qual o seu nome?")
+const idade = Number(prompt("Qual a sua idade?"))
+const profissao = prompt("Qual a sua profissão?")
+
+const pessoa1 = {
+    nome: nome,
+    idade: idade,
+    profissao: profissao,
+}
+
+function minhaFuncao(pessoa) {
+    const resultado = [`Nome: ${pessoa1.nome} , Idade: ${pessoa1.idade}, Profissão: ${pessoa1.profissao}`]
+    return resultado
+}
+
+console.log(minhaFuncao(pessoa1))
+console.log(typeof(minhaFuncao(pessoa1)))
