@@ -34,19 +34,33 @@
 
 // console.log(`O nome da pessoa é ${pessoa.nome}, ela tem ${pessoa.idade} anos e gosta muito de ${pessoa.musica}.`)
 
-const endereco = {
-    rua: "Singapura",
-    numero: 0,
-    cidade:"São Leopoldo",
-    estado: "RS",
-    cep: "12.232.235"
-}
+// const endereco = {
+//     rua: "Singapura",
+//     numero: 0,
+//     cidade:"São Leopoldo",
+//     estado: "RS",
+//     cep: "12.232.235"
+// }
 
-const pessoa = {
-    nome: "Taimisson",
-    idade: 19,
-    generoMusical: "POP",
-    enderecoPessoa: endereco
-}
+// const pessoa = {
+//     nome: "Taimisson",
+//     idade: 19,
+//     generoMusical: "POP",
+//     enderecoPessoa: endereco
+// }
 
-console.log(pessoa.enderecoPessoa)
+// console.log(pessoa.enderecoPessoa)
+
+const usuario = {
+    nome: "Prof",
+    idade: 25,
+    email: "prof@senacrs.com.br",
+    cidade: "São Paulo"
+   }
+   
+   const novoUsuario = {
+    nome: "João",
+    idade: 28,
+    email: "prof@senacrs.com.br",
+    cidade: "São Paulo"
+    }
