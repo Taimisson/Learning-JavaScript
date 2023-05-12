@@ -190,40 +190,52 @@
 
 
 // Objetos das pessoas 
-const pessoa1 = {
-    nome: "Maria",
-    idade: 25,
-    profissao: "Advogada"
+// const pessoa1 = {
+//     nome: "Maria",
+//     idade: 25,
+//     profissao: "Advogada"
+// }
+
+// const pessoa2 = {
+//     nome: "João",
+//     idade: 30,
+//     profissao: "Motorista"
+// }
+
+
+// // Criando função
+// function retornarInformaçoesPessoa(pessoa){
+//     const nome = pessoa.nome
+//     const tamanhoNome = pessoa.nome.length
+//     const idade = pessoa.idade
+//     const profissao = pessoa.profissao
+//     const tamanhoProfissao = pessoa.profissao.length
+
+//     return [nome, tamanhoNome, idade, profissao, tamanhoProfissao]
+
+// }
+
+// // Chama a função com os objetos
+// const infoPessoa1 = retornarInformaçoesPessoa(pessoa1)
+// const infoPessoa2 = retornarInformaçoesPessoa(pessoa2)
+
+// // Printar os resultados
+
+// console.log(infoPessoa1)
+// console.log(infoPessoa2)
+
+const pessoa = {
+    nome: "Taimisson",
+    idade: 19,
+    apelidos: ["Tai", "Taisson", "Carvalho"]
 }
 
-const pessoa2 = {
-    nome: "João",
-    idade: 30,
-    profissao: "Motorista"
-}
-
-
-// Criando função
-function retornarInformaçoesPessoa(pessoa){
+function chamarPessoa(usuario){
     const nome = pessoa.nome
-    const tamanhoNome = pessoa.nome.length
     const idade = pessoa.idade
-    const profissao = pessoa.profissao
-    const tamanhoProfissao = pessoa.profissao.length
+    const apelidos = pessoa.apelidos
 
-    return [nome, tamanhoNome, idade, profissao, tamanhoProfissao]
-
+    return (`Eu sou ${nome}, mas pode me chamar de ${apelidos}`)
 }
 
-// Chama a função com os objetos
-const infoPessoa1 = retornarInformaçoesPessoa(pessoa1)
-const infoPessoa2 = retornarInformaçoesPessoa(pessoa2)
-
-// Printar os resultados
-
-console.log(infoPessoa1)
-console.log(infoPessoa2)
-
-
-
-
+console.log(chamarPessoa(pessoa))
