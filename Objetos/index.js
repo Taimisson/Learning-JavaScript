@@ -161,32 +161,45 @@
 // console.log(minhaFuncao(pessoa1))
 // console.log(typeof(minhaFuncao(pessoa1)))
 
-// let carrinho = [];
+let carrinho = [];
 
-// const fruta1 = {
-//     nome: "Maçã",
-//     disponibilidade: true
-// }
+const fruta1 = {
+    nome: "Maçã",
+    disponibilidade: true
+}
 
-// const fruta2 = {
-//     nome: "Abacaxi",
-//     disponibilidade: true
-// }
+const fruta2 = {
+    nome: "Abacaxi",
+    disponibilidade: true
+}
 
-// const fruta3 = {
-//     nome: "Banana",
-//     disponibilidade: true
-// }
+const fruta3 = {
+    nome: "Banana",
+    disponibilidade: true
+}
 
-// function addCarrinho(fruta){
-//     carrinho.push(fruta)
-// }
+function addCarrinho(fruta){
+    carrinho.push(fruta)
+}
 
-// addCarrinho(fruta1)
-// addCarrinho(fruta2)
-// addCarrinho(fruta3)
+addCarrinho(fruta1)
+addCarrinho(fruta2)
+addCarrinho(fruta3)
 
-// console.log(carrinho)
+console.log(carrinho)
+
+function controlarEstoque(fruta){
+    const frutaInvertida = {
+        ...fruta,
+        disponibilidade: !fruta.disponibilidade
+    }
+
+    return frutaInvertida
+}
+
+console.log(controlarEstoque(fruta1))
+console.log(controlarEstoque(fruta2))
+console.log(controlarEstoque(fruta3))
 
 
 // Objetos das pessoas 
@@ -240,13 +253,57 @@
 
 // console.log(chamarPessoa(pessoa))
 
-const pessoa = {
-    nome: "Taimisson",
-    apelidos: ["Tai","Taisson", "Carvalho"]
-}
+// const pessoa = {
+//     nome: "Taimisson",
+//     apelidos: ["Tai","Taisson", "Carvalho"]
+// }
 
-function ExibirNome() {
-    console.log(`Eu sou ${pessoa.nome} e meus apelidos são ${pessoa.apelidos}`)
-}
+// function ExibirNome() {
+//     console.log(`Eu sou ${pessoa.nome} e meus apelidos são ${pessoa.apelidos}`)
+// }
 
-ExibirNome(pessoa)
+// ExibirNome(pessoa)
+
+// carrinho = []
+
+// const fruta1 = {
+//     nome:"Banana"
+// }
+
+// const fruta2 = {
+//     nome:"Laranja"
+// }
+
+// const fruta3 = {
+//     nome:"Maçã"
+// }
+
+// function adicionarCarrinho(fruta){
+//     carrinho.push(fruta)
+// }
+
+// adicionarCarrinho(fruta1)
+// adicionarCarrinho(fruta2)
+// adicionarCarrinho(fruta3)
+
+// console.log(carrinho)
+
+// const filme = {
+//     ano: 2000,
+//     nome:"Constantine"
+// }
+
+// const filme2 = {
+//     ano: 1980,
+//     nome: "Star Wars - A ameaça fantasma"
+// }
+
+// function compararFilmes(filme, outroFilme){
+
+//     console.log(`O primeiro filme é maior que o segundo?`, filme.ano < outroFilme.ano);
+
+//     console.log(`O primeiro filme foi lançado no mesmo ano do segundo?`, filme.ano === outroFilme.ano);
+
+// }
+
+// compararFilmes(filme,filme2)
