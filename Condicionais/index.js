@@ -23,16 +23,34 @@
 
 // swtich case
 
-let paisdeOrigem
-switch(paisdeOrigem){
-    case "Inglaterra":
-        console.log("Inglês");
-    case "Brasil":
-        console.log("Brasileiro");
-    case "EUA":
-        console.log("Estadunidense");
-    case "Canadá":
-        console.log("Canadense");
+// let paisdeOrigem
+// switch(paisdeOrigem){
+//     case "Inglaterra":
+//         console.log("Inglês");
+//     case "Brasil":
+//         console.log("Brasileiro");
+//     case "EUA":
+//         console.log("Estadunidense");
+//     case "Canadá":
+//         console.log("Canadense");
+//     default:
+//         console.log("Nacionalidade não encontrada");
+// }
+
+// Ex 01
+
+let pokemon = prompt("Escolha um pokemon: Bulbasauro | Charmander | Squirtle").toLowerCase()
+
+switch(pokemon){
+    case "bulbasauro":
+        console.log("Bulbasauro - Planta e Veneno");
+        break;
+    case "charmander":
+        console.log("Charmander - Fogo");
+        break;
+    case "squirtle":
+        console.log("Squirtle - Água");
+        break;
     default:
-        console.log("Nacionalidade não encontrada");
+        console.log("O pokémon não está na Pokedex!");
 }
