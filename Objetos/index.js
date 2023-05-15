@@ -224,18 +224,29 @@
 // console.log(infoPessoa1)
 // console.log(infoPessoa2)
 
+// const pessoa = {
+//     nome: "Taimisson",
+//     idade: 19,
+//     apelidos: ["Tai", "Taisson", "Carvalho"]
+// }
+
+// function chamarPessoa(usuario){
+//     const nome = pessoa.nome
+//     const idade = pessoa.idade
+//     const apelidos = pessoa.apelidos
+
+//     return (`Eu sou ${nome}, mas pode me chamar de ${apelidos}`)
+// }
+
+// console.log(chamarPessoa(pessoa))
+
 const pessoa = {
     nome: "Taimisson",
-    idade: 19,
-    apelidos: ["Tai", "Taisson", "Carvalho"]
+    apelidos: ["Tai","Taisson", "Carvalho"]
 }
 
-function chamarPessoa(usuario){
-    const nome = pessoa.nome
-    const idade = pessoa.idade
-    const apelidos = pessoa.apelidos
-
-    return (`Eu sou ${nome}, mas pode me chamar de ${apelidos}`)
+function ExibirNome() {
+    console.log(`Eu sou ${pessoa.nome} e meus apelidos são ${pessoa.apelidos}`)
 }
 
-console.log(chamarPessoa(pessoa))
+ExibirNome(pessoa)
