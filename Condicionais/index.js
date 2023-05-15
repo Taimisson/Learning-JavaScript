@@ -39,18 +39,34 @@
 
 // Ex 01
 
-let pokemon = prompt("Escolha um pokemon: Bulbasauro | Charmander | Squirtle").toLowerCase()
+// let pokemon = prompt("Escolha um pokemon: Bulbasauro | Charmander | Squirtle").toLowerCase()
 
-switch(pokemon){
-    case "bulbasauro":
-        console.log("Bulbasauro - Planta e Veneno");
-        break;
-    case "charmander":
-        console.log("Charmander - Fogo");
-        break;
-    case "squirtle":
-        console.log("Squirtle - Água");
-        break;
-    default:
-        console.log("O pokémon não está na Pokedex!");
+// switch(pokemon){
+//     case "bulbasauro":
+//         console.log("Bulbasauro - Planta e Veneno");
+//         break;
+//     case "charmander":
+//         console.log("Charmander - Fogo");
+//         break;
+//     case "squirtle":
+//         console.log("Squirtle - Água");
+//         break;
+//     default:
+//         console.log("O pokémon não está na Pokedex!");
+// }
+
+// Ex 02
+
+const ensinoMedio = prompt("Você terminou o ensino médio? (Sim/Não)").toLowerCase().charAt()
+const idade = Number(prompt("Qual a sua idade?"))
+const faculdade = prompt("Está cursando uma faculdade pública?")
+
+function matricula(medio, maiorIdade, facul){
+    if (medio == "s" && maiorIdade >= 18 && facul =="n"){
+        console.log("Você pode se matricular na faculdade!")
+    }else{
+        console.log("Você não pode se matricular na faculdade!")
+    }
 }
+
+matricula(ensinoMedio, idade, faculdade)
