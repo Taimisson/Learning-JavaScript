@@ -65,7 +65,17 @@ function matricula(medio, maiorIdade, facul){
     if (medio == "s" && maiorIdade >= 18 && facul =="n"){
         console.log("Você pode se matricular na faculdade!")
     }else{
-        console.log("Você não pode se matricular na faculdade!")
+        if (maiorIdade < 18){
+            console.log("Você é menor de idade, não pode se matricular!")
+        }
+
+        if(medio == "n"){
+            console.log("Você não concluiu o Ensino Médio, não pode se matricular!")
+        }
+
+        if(facul == "s"){
+            console.log("Você está cursando outra faculdade pública, não pode se matricular!")
+        }
     }
 }
 
