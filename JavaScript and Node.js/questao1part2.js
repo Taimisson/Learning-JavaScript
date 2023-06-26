@@ -7,6 +7,8 @@ const rl = readline.createInterface({
 
 rl.question("Digite seu nome, por favor: ", (nome) => {
     console.log("Olá,", nome, "seja bem-vindo(a)");
+    
     rl.close();
-}
-)
+
+});
+
