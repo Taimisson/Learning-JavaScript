@@ -5,10 +5,10 @@ const rl = readline.createInterface({
     output: process.stdout
 })
 
-rl.question("Digite seu nome, por favor: ", (nome) => {
-    console.log("Olá,", nome, "seja bem-vindo(a)");
-    
-    rl.close();
-
+rl.question("Digite o primeiro número: ", (n1) => {
+    rl.question("Digite o segundo número: ", (n2) =>{
+        const soma = Number(n1) + Number(n2);
+        console.log(`A soma dos números ${n1} e ${n2} é: ${soma}`);
+        rl.close();
+    })
 });
-
