@@ -27,5 +27,6 @@ rl.question("Digite um número: ", (numero) => {
     } else {
         console.log(`O número ${numero} é ímpar.`);
     }
+    
     rl.close();
 });
