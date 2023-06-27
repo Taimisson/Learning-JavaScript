@@ -10,4 +10,4 @@ rl.question("Digite a temperatura em Celsius para a Conversão em Fahrenheit: ",
     console.log(`A conversão de ${celsius} para Fahrenheit é: ${Fahrenheit}° F`);
 
     rl.close()
-})
+});
