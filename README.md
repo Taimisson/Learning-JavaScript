@@ -1,6 +1,6 @@
 # Curso de JavaScript com Node.js - Programa 3000 Talentos TI
 
-Este repositório contém atividades desenvolvidas no curso de JavaScript com Node.js do Programa 3000 Talentos TI da cidade de São Leopoldo, oferecido em parceria pela Unisinos, Senac, Prefeitura de São Leopoldo, Ascist e Tecnosinos.
+Este repositório contém atividades desenvolvidas no curso de JavaScript com Node.js do Programa 3000 Talentos TI da cidade de São Leopoldo, oferecido em parceria pela Unisinos, Senac, Prefeitura de São Leopoldo, Acist e Tecnosinos.
 
 ## Descrição
 
@@ -19,5 +19,5 @@ Se você tiver alguma dúvida ou sugestão relacionada ao curso de JavaScript co
 - Unisinos: [https://www.unisinos.br](https://www.unisinos.br)
 - Senac: [https://www.senacrs.com.br](https://www.senacrs.com.br)
 - Prefeitura de São Leopoldo: [https://www.saoleopoldo.rs.gov.br](https://www.saoleopoldo.rs.gov.br)
-- Ascist: [https://www.ascist.com.br](https://www.ascist.com.br)
+- Acist: [https://acistsl.com.br](https://acistsl.com.br/)
 - Tecnosinos: [https://www.tecnosinos.com.br](https://www.tecnosinos.com.br)
