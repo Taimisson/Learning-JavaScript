@@ -15,5 +15,5 @@ rl.question("Qual o seu peso? KG: ", (kg) => {
         console.log("Seu IMC é: " + imc.toFixed(2));
 
         rl.close();
-    })
-})
+    });
+});
