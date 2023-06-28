@@ -14,5 +14,5 @@ rl.question("Digite sua idade: ", (idade) => {
         console.log("Digite uma resposta válida!");
     } 
 
-    rl.close()
-})
+    rl.close();
+});
