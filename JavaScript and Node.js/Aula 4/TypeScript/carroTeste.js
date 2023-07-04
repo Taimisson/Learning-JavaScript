@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var carro_1 = require("./carro");
+var rl = require("readline-sync");
+var marca = rl.question("Digite a marca do carro: ");
+var modelo = rl.question("Digite o modelo do carro: ");
+var ano = rl.question("Digite o ano do carro: ");
+var civic = new carro_1.Carro(marca, modelo, ano);
+console.log(civic);
+civic.ligar();
+var velocidade = rl.questionInt("Digite a velocidade que irá acelerar: ");
+civic.acelerar(velocidade);
+civic.desligar();

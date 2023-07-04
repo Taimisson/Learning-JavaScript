@@ -1,8 +1,9 @@
-class Carro {
+export class Carro {
     marca: string;
     modelo: string;
     ano: number;
     ligado: boolean;
+    velocidade: number;
 
     constructor(marca: string, modelo: string, ano: number) {
         this.marca = marca;
@@ -27,13 +28,23 @@ class Carro {
             console.log("O carro já está desligado!");
         }
     }
+
+    acelerar(velocidade: number): void{
+        if(this.ligado){
+            this.velocidade += velocidade;
+            console.log("O carro acelerou para: " + velocidade + " km/h");
+        } else {
+            console.log("Não é possível acelerar pois o carro está desligado!");
+        }
+    }
+
 }
 
 // const civic = new Carro("Honda", "Civic", 2022);
-// console.log(civic)
+// console.log(civic);
 
-const gol = new Carro("Volkswagen", "Gol", 2005);
-console.log(gol);
-gol.ligar();
-gol.ligar()
-gol.desligar();
+// const gol = new Carro("Volkswagen", "Gol", 2005);
+// console.log(gol);
+// gol.ligar();
+// gol.ligar()
+// gol.desligar();
