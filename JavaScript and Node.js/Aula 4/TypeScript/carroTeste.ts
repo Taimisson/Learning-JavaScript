@@ -12,6 +12,7 @@ console.log(civic);
 civic.ligar();
 
 const velocidade = rl.questionInt("Digite a velocidade que irá acelerar: ");
+
 civic.acelerar(velocidade);
 
 civic.desligar();

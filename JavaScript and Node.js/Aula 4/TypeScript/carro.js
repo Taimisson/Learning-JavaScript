@@ -28,7 +28,7 @@ var Carro = /** @class */ (function () {
     Carro.prototype.acelerar = function (velocidade) {
         if (this.ligado) {
             this.velocidade += velocidade;
-            console.log("O carro acelerou para: " + velocidade + "km/h");
+            console.log("O carro acelerou para: " + velocidade + " km/h");
         }
         else {
             console.log("Não é possível acelerar pois o carro está desligado!");
