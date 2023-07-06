@@ -12,5 +12,4 @@ export class Pessoa{
     cumprimentar(): void{
         console.log(`Olá, seja bem-vindo ${this.nome}`);
     };
-
 };
