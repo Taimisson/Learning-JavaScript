@@ -1,19 +1,23 @@
+"use strict";
 // Crie uma classe chamada "Aluno" com as propriedades nome e notas (array de números). Adicione um método chamado "calcularMedia" que calcula e retorna a média das notas do aluno, serão no total três notas. Em seguida, crie uma instância da classe, adicione as três notas e imprima a média.
-
-export class Aluno{
-    nome: string;
-    notas: number[];
-
-    constructor(nome: string){
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Aluno = void 0;
+var Aluno = /** @class */ (function () {
+    function Aluno(nome) {
         this.nome = nome;
         this.notas = [];
-    };
-
-    calcularMedia(): number{
-        let soma = 0 ;
-        for (let i = 0; i < this.notas.length; i++) {
+    }
+    ;
+    Aluno.prototype.calcularMedia = function () {
+        var soma = 0;
+        for (var i = 0; i < this.notas.length; i++) {
             soma += this.notas[i];
-        };
+        }
+        ;
         return soma / this.notas.length;
     };
-};
+    ;
+    return Aluno;
+}());
+exports.Aluno = Aluno;
+;
