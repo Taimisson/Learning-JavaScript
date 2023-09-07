@@ -33,9 +33,9 @@ This repository is the heart of my learning adventure, documenting my achievemen
 
 ## Hands-on Projects:
 
-- [Sharpening Skills with JavaScript and TypeScript](projects/javascript-and-typescript-exercises/): I undertook these practical exercises to reinforce my grasp of fundamental JavaScript and TypeScript concepts.
-- [Crafting Solutions with SQL and MariaDB](projects/sql-and-mariadb-projects/): These projects provided hands-on experience in managing databases using SQL and MariaDB.
-- [Building Dynamic APIs with Swagger and Node.js](projects/nodejs-api-development-with-swagger/): I ventured into the world of API documentation by creating robust APIs with Swagger, leveraging Node.js and TypeScript.
+- I undertook these practical exercises to reinforce my grasp of fundamental JavaScript and TypeScript concepts.
+- These projects provided hands-on experience in managing databases using SQL and MariaDB.
+- I ventured into the world of API documentation by creating robust APIs with Swagger, leveraging Node.js and TypeScript.
 
 ## Contributions and Growth:
 
